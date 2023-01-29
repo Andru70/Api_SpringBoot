@@ -59,6 +59,18 @@ public class CancionEntity {
 		this.date = date;
 	}
 
+	public CancionEntity(PlaylistEntity playlist, String nombre, String artista,
+						 String genero, String compositor, String album, Date date) {
+
+		this.playlist = playlist;
+		this.nombre = nombre;
+		this.artista = artista;
+		this.genero = genero;
+		this.compositor = compositor;
+		this.album = album;
+		this.date = date;
+	}
+
 	public CancionEntity(int cancionId, String nombre, String artista, String genero, String compositor,
 						 String album, Date date) {
 		CancionId = cancionId;

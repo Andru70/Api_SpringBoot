@@ -43,6 +43,19 @@ public class PlaylistEntity {
 		this.canciones = canciones;
 	}
 
+	public PlaylistEntity(int playlistID, AccountEntity account, String nombre) {
+		PlaylistID = playlistID;
+		this.account = account;
+		this.nombre = nombre;
+
+	}
+
+	public PlaylistEntity(AccountEntity account, String nombre) {
+		this.account = account;
+		this.nombre = nombre;
+
+	}
+
 	public PlaylistEntity(int playlistID, String nombre) {
 
 		PlaylistID = playlistID;

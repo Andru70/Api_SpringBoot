@@ -43,6 +43,15 @@ public class PodcastEntity {
 		this.autor = autor;
 		this.episodios = episodios;
 	}
+
+	public PodcastEntity(AccountEntity account, String nombre, String autor, Integer episodios) {
+
+		this.nombre = nombre;
+		this.autor = autor;
+		this.episodios = episodios;
+		this.account = account;
+	}
+
 	public PodcastEntity(int podcastID, String nombre, String autor, Integer episodios) {
 
 		PodcastID = podcastID;
