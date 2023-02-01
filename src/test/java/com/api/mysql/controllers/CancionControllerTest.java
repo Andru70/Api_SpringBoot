@@ -120,6 +120,7 @@ public class CancionControllerTest {
 
 //        Date fecha = Date.valueOf(dateString);
 
+
                                                                                                                                                                                         //Sin el T00.... se hace el registro pero el test da error ya que espera la fecha sin el time y la response retorna la fecha junto con su time
         String json = "{\"cancionId\":9,\"nombre\":\"Working For It\",\"genero\":\"Pop\",\"compositor\":\"Skrillex\",\"artista\":\"Skrillex\",\"album\":\"Generationwhy\",\"date\":\"2016-11-20T00:11:00.000+00:00\"}";
 
