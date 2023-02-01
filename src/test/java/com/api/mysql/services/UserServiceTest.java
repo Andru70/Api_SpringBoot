@@ -76,7 +76,7 @@ public class UserServiceTest {
 
     @DisplayName("Actualizamos un usuario y esperamos una respuesta positiva")
     @Test
-    public void testupdateUser(){
+    public void testUpdateUser(){
 
         UserEntity user = new UserEntity(9,"Yamal Torrente");
 
@@ -95,7 +95,7 @@ public class UserServiceTest {
 
     @DisplayName("Obtenemos todos los usuarios y esperamos una respuesta positiva")
     @Test
-    public void testgetUsers(){
+    public void testGetUsers(){
 
         UserEntity user = new UserEntity("Yamal Torrente");
         UserEntity user2 = new UserEntity("Luian Torrente");
@@ -110,7 +110,7 @@ public class UserServiceTest {
 
     @DisplayName("Obtenemos un usuario por su id y esperamos una respuesta positiva")
     @Test
-    public void testsgetUser(){
+    public void testGetUser(){
 
         UserEntity user = new UserEntity(9,"Pablo Medina");
 
@@ -125,7 +125,7 @@ public class UserServiceTest {
 
     @DisplayName("Eliminamos un usuario y esperamos una respuesta positiva")
     @Test
-    public void testdeleteUser(){
+    public void testDeleteUser(){
 
         UserEntity user = new UserEntity(9,"Pablo Medina");
         UserEntity user2 = new UserEntity(10,"Arturo Romero");
